@@ -23,7 +23,6 @@ $('#main-form').submit((event)=>{
     $.get(url,{}
     ,(response)=>{
         if(response.success){
-            console.log(response)
             //get the rate
 
             if(response.result.total ==0 ){
