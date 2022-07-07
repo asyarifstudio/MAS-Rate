@@ -7,13 +7,24 @@
     <meta name="keywords" content="currency,converter,rate,SGD, Singapore">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JBSSRVVP6E"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-JBSSRVVP6E');
+    </script>
 </head>
 
 <body>
     <div class="container">
         <div class="row mt-2 mb-5">
             <div class="col-12">
-                MAS Rate is tool to convert the currency from and to Singapore Dollar (SGD) based on official End of Date rate from  <a href="https://www.mas.gov.sg/statistics/exchange-rates" target="_blank"> Monetary Authority of Singapore</a> 
+                MAS Rate is tool to convert the currency from and to Singapore Dollar (SGD) based on official End of
+                Date rate from <a href="https://www.mas.gov.sg/statistics/exchange-rates" target="_blank"> Monetary
+                    Authority of Singapore</a>
             </div>
         </div>
         <form class="form" id="main-form">
@@ -52,13 +63,14 @@
             </div>
             <div class="row mt-2 ps-5">
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="currency-direction" id="direction-from" value="from" checked>
+                    <input class="form-check-input" type="radio" name="currency-direction" id="direction-from"
+                        value="from" checked>
                     <label class="form-check-label" for="direction-from">
                         Convert from you currency to SGD
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="currency-direction" id="direction-to"  value="to">
+                    <input class="form-check-input" type="radio" name="currency-direction" id="direction-to" value="to">
                     <label class="form-check-label" for="direction-to">
                         Convert to SGD from your currency
                     </label>
@@ -81,7 +93,7 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <button type="submit" class="btn btn-primary" >Calculate</button>
+                <button type="submit" class="btn btn-primary">Calculate</button>
             </div>
         </form>
         <div class="row mt-5">
@@ -89,10 +101,12 @@
 
                 <div>Copyright <a href="https://twitter.com/asyarif_" target="_blank">@asyarif_</a> 2022</div>
                 <div><a href="https://github.com/asyarifstudio/MAS-Rate" target="_blank">Repository</a></div>
-                </div>
+            </div>
             <div class="col-6">
-                <div><a href="https://www.mas.gov.sg/statistics/exchange-rates" target="_blank"> Monetary Authority of Singapore</a> </div>
-                <div><a href="https://secure.mas.gov.sg/api/APIDescPage.aspx?resource_id=95932927-c8bc-4e7a-b484-68a66a24edfe" target="_blank">MAS API</a></div>
+                <div><a href="https://www.mas.gov.sg/statistics/exchange-rates" target="_blank"> Monetary Authority of
+                        Singapore</a> </div>
+                <div><a href="https://secure.mas.gov.sg/api/APIDescPage.aspx?resource_id=95932927-c8bc-4e7a-b484-68a66a24edfe"
+                        target="_blank">MAS API</a></div>
                 <div><a href="https://jquery.com/" target="_blank">JQuery</a></div>
                 <div><a href="https://getbootstrap.com/" target="_blank">Twitter Bootstrap</a></div>
             </div>
