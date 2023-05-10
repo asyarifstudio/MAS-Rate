@@ -1,3 +1,8 @@
+$('#currency').on('change',()=>{
+    let val = $(this).find(":selected").val();
+    $('.currency-label').text(val);
+})
+
 $('#main-form').submit((event)=>{
     event.preventDefault();
     let amount = event.target['input-amount'].value;
