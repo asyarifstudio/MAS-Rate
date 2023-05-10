@@ -56,6 +56,7 @@ $('#main-form').submit((event)=>{
                     }
 
                     event.target['output-amount'].value = result;
+                    event.target['output-rate'].value = rate;
                 }
                 
             }
