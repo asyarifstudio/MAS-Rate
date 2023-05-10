@@ -1,6 +1,5 @@
-$('#currency').on('change',()=>{
-    let val = $(this).find(":selected").val();
-    $('.currency-label').text(val);
+$('#currency').on('change',function(){
+    $('.currency-label').text(this.value);
 })
 
 $('#main-form').submit((event)=>{
